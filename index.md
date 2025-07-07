@@ -90,7 +90,7 @@ title: Home
         <div class="flex items-center justify-between">
           <a href="#" class="-m-1.5 p-1.5">
             <span class="sr-only">Your Company</span>
-            <img src="/assets/images/logo.png" alt="Site Logo" style="height: 50px;">
+            <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Site Logo" style="height:50px">
           </a>
           <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
             <span class="sr-only">Close menu</span>
