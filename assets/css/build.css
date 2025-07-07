@@ -289,9 +289,6 @@
   .-mx-3 {
     margin-inline: calc(var(--spacing) * -3);
   }
-  .mx-6 {
-    margin-inline: calc(var(--spacing) * 6);
-  }
   .mx-auto {
     margin-inline: auto;
   }
@@ -337,11 +334,11 @@
   .mb-12 {
     margin-bottom: calc(var(--spacing) * 12);
   }
-  .mb-16 {
-    margin-bottom: calc(var(--spacing) * 16);
-  }
   .block {
     display: block;
+  }
+  .contents {
+    display: contents;
   }
   .flex {
     display: flex;
@@ -641,9 +638,6 @@
   .px-6 {
     padding-inline: calc(var(--spacing) * 6);
   }
-  .px-12 {
-    padding-inline: calc(var(--spacing) * 12);
-  }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
   }
@@ -658,9 +652,6 @@
   }
   .py-6 {
     padding-block: calc(var(--spacing) * 6);
-  }
-  .py-20 {
-    padding-block: calc(var(--spacing) * 20);
   }
   .py-32 {
     padding-block: calc(var(--spacing) * 32);
@@ -796,10 +787,6 @@
   }
   .shadow-lg {
     --tw-shadow: 0 10px 15px -3px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 4px 6px -4px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
-    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
-  }
-  .shadow-md {
-    --tw-shadow: 0 4px 6px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 2px 4px -2px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
   .shadow-sm {
@@ -939,9 +926,9 @@
       max-width: var(--container-sm);
     }
   }
-  .sm\:px-6 {
+  .sm\:px-8 {
     @media (width >= 40rem) {
-      padding-inline: calc(var(--spacing) * 6);
+      padding-inline: calc(var(--spacing) * 8);
     }
   }
   .sm\:py-48 {
@@ -1007,11 +994,6 @@
       @supports (color: color-mix(in lab, red, red)) {
         --tw-ring-color: color-mix(in oklab, var(--color-gray-900) 10%, transparent);
       }
-    }
-  }
-  .lg\:mx-12 {
-    @media (width >= 64rem) {
-      margin-inline: calc(var(--spacing) * 12);
     }
   }
   .lg\:mt-24 {
@@ -1100,6 +1082,11 @@
   .lg\:px-8 {
     @media (width >= 64rem) {
       padding-inline: calc(var(--spacing) * 8);
+    }
+  }
+  .lg\:px-12 {
+    @media (width >= 64rem) {
+      padding-inline: calc(var(--spacing) * 12);
     }
   }
   .lg\:py-4 {
