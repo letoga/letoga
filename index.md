@@ -720,7 +720,7 @@ title: Home
         <h3 class="text-base font-semibold text-gray-900 mb-2">Correo electrónico</h3>
         <a href="mailto:info@tuempresa.com"
            class="mt-auto text-[#0071BC] font-medium text-lg hover:underline">
-          info@letoga.com
+          letogavalencia@gmail.com
         </a>
       </div>
     </div>
