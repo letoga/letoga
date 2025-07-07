@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es"class="scroll-smooth">
+  <head>
+    <link rel="icon" href="/assets/images/fletoga.jpeg" type="image/jpeg">
+    <meta charset="utf-8">
+    <title>{{ page.title }} | Letoga</title>
+   <link rel="stylesheet" href="/assets/css/build.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   {% feed_meta %}
+  </head>
+  <body>
+    {% include navigation.html %}
+    {{ content }}
+    <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
+    <!-- ── Floating WhatsApp Button ─────────────────────── -->
+  <a
+    href="https://wa.me/34604952389"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Chat on WhatsApp"
+    class="
+      fixed bottom-[20px] right-[20px] z-50
+      w-[60px] h-[60px]
+      bg-[#25D366] hover:bg-[#1ebe5d]
+      flex items-center justify-center
+      rounded-full
+      shadow-lg
+      transition-all duration-300 hover:scale-110
+    "
+  >
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+      alt="WhatsApp"
+      class="w-[35px] h-[35px]"
+    />
+  </a>
+  <!-- ──────────────────────────────────────────────────── -->
+  </body>
+</html>
