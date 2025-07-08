@@ -489,157 +489,80 @@ title: Home
 
 
 
-<!-- FAQ  -->
+<!-- FAQ -->
 <section
   id="faqs"
   class="scroll-mt-24 bg-white pt-12 pb-24 sm:pt-16 sm:pb-32">
 
-  <div class="mx-auto max-w-4xl">
+  <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
     <!-- Section header -->
     <div class="text-center mb-12">
-      <!-- Subtítulo en azul, estilo “Lo que dicen nuestros clientes”, pero para FAQ -->
       <h2 class="text-base/7 font-semibold text-[#0071BC]">
         ¿Tienes dudas? Estamos aquí para ayudarte.
       </h2>
-
-      <!-- Título principal de la sección -->
       <h3 class="mt-2 text-3xl font-extrabold text-gray-900">
         Preguntas Frecuentes
       </h3>
-
       <p class="mt-2 text-lg text-gray-600">
         Encuentra respuestas rápidas a las dudas más comunes.
       </p>
     </div>
 
-
-    <!-- FAQ list: always single-column -->
+    <!-- FAQ list -->
     <div class="space-y-6">
-      <!-- Q1 -->
-      <details class="group rounded-xl shadow hover:shadow-lg transition-shadow duration-300 border border-gray-200">
-        <summary class="flex items-center justify-between p-5 cursor-pointer select-none">
-          <span class="flex items-center space-x-2 text-gray-900 font-medium">
-            <div class="p-2 bg-[#0071BC]/10 rounded-full">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#0071BC]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M12 5l7 7-7 7"/>
-              </svg>
-            </div>
-            <span>¿Cuáles son los servicios que ofrecen?</span>
-          </span>
-          <svg class="h-5 w-5 text-gray-400 transition-transform duration-300 group-open:rotate-180"
-               xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
-          </svg>
-        </summary>
-        <div class="px-5 pb-5 text-gray-700 leading-relaxed border-t border-gray-100">
+      <div class="rounded-xl shadow hover:shadow-lg transition-shadow duration-300 border border-gray-200 p-5">
+        <h4 class="text-gray-900 font-semibold mb-2">
+          ¿Cuáles son los servicios que ofrecen?
+        </h4>
+        <p class="text-gray-700 leading-relaxed">
           Ofrecemos una amplia gama de servicios profesionales en Valencia, incluyendo fontanería, electricidad, desatascos, albañilería y pintura. Realizamos toda clase de reparaciones ya que somos una empresa de multiservicios, garantizando calidad y rapidez en cada trabajo.
-        </div>
-      </details>
+        </p>
+      </div>
 
-      <!-- Q2 -->
-      <details class="group rounded-xl shadow hover:shadow-lg transition-shadow duration-300 border border-gray-200">
-        <summary class="flex items-center justify-between p-5 cursor-pointer select-none">
-          <span class="flex items-center space-x-2 text-gray-900 font-medium">
-            <div class="p-2 bg-[#0071BC]/10 rounded-full">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#0071BC]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M12 5l7 7-7 7"/>
-              </svg>
-            </div>
-            <span>¿Cómo puedo solicitar un servicio?</span>
-          </span>
-          <svg class="h-5 w-5 text-gray-400 transition-transform duration-300 group-open:rotate-180"
-               xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
-          </svg>
-        </summary>
-        <div class="px-5 pb-5 text-gray-700 leading-relaxed border-t border-gray-100">
+      <div class="rounded-xl shadow hover:shadow-lg transition-shadow duration-300 border border-gray-200 p-5">
+        <h4 class="text-gray-900 font-semibold mb-2">
+          ¿Cómo puedo solicitar un servicio?
+        </h4>
+        <p class="text-gray-700 leading-relaxed">
           Puedes solicitar nuestros servicios a través de nuestra página web, por teléfono o por correo electrónico. Estaremos encantados de darte un presupuesto personalizado y coordinar una visita a tu domicilio.
-        </div>
-      </details>
+        </p>
+      </div>
 
-      <!-- Q3 -->
-      <details class="group rounded-xl shadow hover:shadow-lg transition-shadow duration-300 border border-gray-200">
-        <summary class="flex items-center justify-between p-5 cursor-pointer select-none">
-          <span class="flex items-center space-x-2 text-gray-900 font-medium">
-            <div class="p-2 bg-[#0071BC]/10 rounded-full">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#0071BC]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M12 5l7 7-7 7"/>
-              </svg>
-            </div>
-            <span>¿Trabajamos en toda Valencia?</span>
-          </span>
-          <svg class="h-5 w-5 text-gray-400 transition-transform duration-300 group-open:rotate-180"
-               xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
-          </svg>
-        </summary>
-        <div class="px-5 pb-5 text-gray-700 leading-relaxed border-t border-gray-100">
+      <div class="rounded-xl shadow hover:shadow-lg transition-shadow duration-300 border border-gray-200 p-5">
+        <h4 class="text-gray-900 font-semibold mb-2">
+          ¿Trabajamos en toda Valencia?
+        </h4>
+        <p class="text-gray-700 leading-relaxed">
           Sí, nuestros servicios están disponibles en toda la Comunidad Valenciana, incluyendo Valencia y sus alrededores. Si no estás seguro de si cubrimos tu área, no dudes en contactarnos para confirmarlo.
-        </div>
-      </details>
+        </p>
+      </div>
 
-      <!-- Q4 -->
-      <details class="group rounded-xl shadow hover:shadow-lg transition-shadow duration-300 border border-gray-200">
-        <summary class="flex items-center justify-between p-5 cursor-pointer select-none">
-          <span class="flex items-center space-x-2 text-gray-900 font-medium">
-            <div class="p-2 bg-[#0071BC]/10 rounded-full">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#0071BC]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M12 5l7 7-7 7"/>
-              </svg>
-            </div>
-            <span>¿Qué horarios tienen para realizar reparaciones?</span>
-          </span>
-          <svg class="h-5 w-5 text-gray-400 transition-transform duration-300 group-open:rotate-180"
-               xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
-          </svg>
-        </summary>
-        <div class="px-5 pb-5 text-gray-700 leading-relaxed border-t border-gray-100">
+      <div class="rounded-xl shadow hover:shadow-lg transition-shadow duration-300 border border-gray-200 p-5">
+        <h4 class="text-gray-900 font-semibold mb-2">
+          ¿Qué horarios tienen para realizar reparaciones?
+        </h4>
+        <p class="text-gray-700 leading-relaxed">
           Ofrecemos horarios flexibles para adaptarnos a tus necesidades. Estamos disponibles de lunes a viernes y también podemos ofrecer atención en fines de semana en caso de urgencias.
-        </div>
-      </details>
+        </p>
+      </div>
 
-      <!-- Q5 -->
-      <details class="group rounded-xl shadow hover:shadow-lg transition-shadow duration-300 border border-gray-200">
-        <summary class="flex items-center justify-between p-5 cursor-pointer select-none">
-          <span class="flex items-center space-x-2 text-gray-900 font-medium">
-            <div class="p-2 bg-[#0071BC]/10 rounded-full">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#0071BC]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M12 5l7 7-7 7"/>
-              </svg>
-            </div>
-            <span>¿Qué tipos de pago aceptan?</span>
-          </span>
-          <svg class="h-5 w-5 text-gray-400 transition-transform duration-300 group-open:rotate-180"
-               xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
-          </svg>
-        </summary>
-        <div class="px-5 pb-5 text-gray-700 leading-relaxed border-t border-gray-100">
+      <div class="rounded-xl shadow hover:shadow-lg transition-shadow duration-300 border border-gray-200 p-5">
+        <h4 class="text-gray-900 font-semibold mb-2">
+          ¿Qué tipos de pago aceptan?
+        </h4>
+        <p class="text-gray-700 leading-relaxed">
           Aceptamos pagos en efectivo, transferencia bancaria y tarjetas de crédito/débito. Para más detalles, consulta con nuestro equipo durante la solicitud del servicio.
-        </div>
-      </details>
+        </p>
+      </div>
 
-      <!-- Q6 -->
-      <details class="group rounded-xl shadow hover:shadow-lg transition-shadow duration-300 border border-gray-200">
-        <summary class="flex items-center justify-between p-5 cursor-pointer select-none">
-          <span class="flex items-center space-x-2 text-gray-900 font-medium">
-            <div class="p-2 bg-[#0071BC]/10 rounded-full">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#0071BC]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M12 5l7 7-7 7"/>
-              </svg>
-            </div>
-            <span>¿Cuánto tiempo tardan en realizar una reparación?</span>
-          </span>
-          <svg class="h-5 w-5 text-gray-400 transition-transform duration-300 group-open:rotate-180"
-               xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
-          </svg>
-        </summary>
-        <div class="px-5 pb-5 text-gray-700 leading-relaxed border-t border-gray-100">
+      <div class="rounded-xl shadow hover:shadow-lg transition-shadow duration-300 border border-gray-200 p-5">
+        <h4 class="text-gray-900 font-semibold mb-2">
+          ¿Cuánto tiempo tardan en realizar una reparación?
+        </h4>
+        <p class="text-gray-700 leading-relaxed">
           El tiempo depende del tipo de servicio requerido. Sin embargo, siempre buscamos ofrecer la solución más rápida sin sacrificar la calidad. Durante la solicitud, te informaremos sobre el tiempo estimado de la reparación.
-        </div>
-      </details>
+        </p>
+      </div>
     </div>
   </div>
 </section>
