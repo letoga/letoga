@@ -603,7 +603,8 @@ title: Home
 <section
   id="contacto"
   class="scroll-mt-24 bg-white pt-12 pb-24 sm:pt-16 sm:pb-32">
-  <div class="mx-auto max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-12">
+  
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12">
     
     <!-- IZQUIERDA: Encabezado sin logo -->
     <div class="flex flex-col justify-center text-center lg:text-left">
@@ -620,6 +621,7 @@ title: Home
 
     <!-- DERECHA: 3 tarjetas en fila -->
     <div class="flex flex-col lg:flex-row lg:space-x-6 space-y-6 lg:space-y-0 lg:items-stretch">
+      
       <!-- Teléfono -->
       <div class="flex-1 bg-slate-50 p-6 rounded-2xl shadow flex flex-col h-full">
         <h3 class="text-base font-semibold text-gray-900 mb-2">Teléfono</h3>
@@ -641,16 +643,15 @@ title: Home
       <!-- Correo electrónico -->
       <div class="flex-1 bg-slate-50 p-6 rounded-2xl shadow flex flex-col h-full">
         <h3 class="text-base font-semibold text-gray-900 mb-2">Correo electrónico</h3>
-        <a href="mailto:info@tuempresa.com"
+        <a href="mailto:letogavalencia@gmail.com"
            class="mt-auto text-[#0071BC] font-medium text-lg hover:underline">
           letogavalencia@gmail.com
         </a>
       </div>
+      
     </div>
-
   </div>
 </section>
-
 
 <!-- footer -->
 <footer class="bg-white border-t border-gray-200 shadow-sm mt-12">
